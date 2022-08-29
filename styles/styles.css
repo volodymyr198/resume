@@ -249,9 +249,39 @@ body {
 }
 @media screen and (max-width:900px){
     .main{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        
     }
+    .main-content {
+        
+        }
     .sidebar{
+        display: flex;
         width: 100%;
+        
+        
+    }
+    .skills-row{
+        display: flex;
+        
+    }
+    .photo{
+        width: 50%;
+        height: 100%;
+
+    }
+    .contacts{
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .tech-skills{
+        margin-left: 20px;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .soft-skills{
+
     }
 }
